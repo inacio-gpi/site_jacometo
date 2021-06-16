@@ -812,7 +812,7 @@ $(".popular-slider-2").owlCarousel({
     768: {
       items: 2,
     },
-    1170: {
+    1400: {
       items: 3,
     },
   },
@@ -822,18 +822,6 @@ $(".accordion_tab").click(function () {
   $(this).parent().toggleClass("active");
   $(this).toggleClass("active");
 });
-// novo
-
-// $('a[href^="#"]:not([href="#"])').click(function (event) {
-//   event.preventDefault();
-//   var id = $(this).attr('href'),
-//     targetOffset = $(id).offset().top;
-
-//   $("html, body").animate({
-//     scrollTop: targetOffset - 50
-//   }, 800);
-// });
-
 // navigation
 var onePageNavigation = function () {
   // var navToggler = $(".site-menu-toggle");

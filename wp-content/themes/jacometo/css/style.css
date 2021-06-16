@@ -262,6 +262,9 @@ a, a:hover {
   padding: 2rem;
   /* height: 470px; */
   margin: 2.2rem 1rem;
+  margin-bottom: 4rem;
+  
+  height: 450px;
 }
 
 .section-vantages .psiu-card .cobertura-img {
@@ -297,24 +300,10 @@ a, a:hover {
 
 .section-vantages .psiu-card .sombra-img {
   position: absolute;
-  transform: translate(-2rem, -40%);
+  content: "";
+  top: 483px;
+  right: -5px;
 }
-
-@media(max-width:991px) {
-  .section-vantages .psiu-card .sombra-img {
-    transform: translate(-3.4rem, -36%);
-  }
-}
-
-@media(max-width: 767.98px) {
-  .section-vantages .psiu-card .sombra-img {
-    transform: translate(-3rem, -32%);
-  }
-}
-
-/* .section-vantages .popular-slider-2 .owl-nav {
-  display: none;
-} */
 
 @media(max-width:991px) {
   .section-vantages .psiu-card h3 {

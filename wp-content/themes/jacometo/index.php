@@ -210,7 +210,7 @@
             <div class="col-6 col-xl-3 mb-5" data-aos="fade-up" data-aos-delay="150">
               <div class="psiu-card">
                 <h4>
-                  incèndio
+                  incêndio
                 </h4>
                 <img class="seguro-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/seguro-4.png">
               </div>
