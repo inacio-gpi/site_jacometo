@@ -341,7 +341,7 @@ a, a:hover {
   border: none;
   color: rgba(0, 0, 0, .7);
   outline: thin dotted;
-  outline: 0px auto -webkit-focus-ring-color;
+  outline: none;
   outline-offset: 0px;
 }
 
@@ -351,7 +351,7 @@ a, a:hover {
 
 .owl-nav button:focus {
   outline: thin dotted;
-  outline: 0px auto -webkit-focus-ring-color;
+  outline: none;
   outline-offset: 0px;
 }
 
@@ -2636,6 +2636,9 @@ figure.dotted-bg:before {
   border-image-source: linear-gradient(to right, #3cccfcff 10%, #05259bff 49%);
   border-image-slice: 5;
   padding-bottom: 2rem;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
 }
 
 .accordion .accordion_content .accordion_item p {
