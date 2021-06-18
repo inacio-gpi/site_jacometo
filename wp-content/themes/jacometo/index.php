@@ -23,77 +23,12 @@
             <div class="col-lg-2 col-md-1 relative align-self-center">
             </div>
             <div id="home-seguro" class="col-lg-5 col-md-6 col relative align-self-center">
-            <?php 
+              <!-- form -->
+              <?php 
                 the_post();
                 the_content();
-            ?>
-              <!-- <form action="#">
-                <h2 class="mb-4 mt-0 text-center">Cadastre-se agora.</h2>
-                <div class="form-group">
-                  <input type="text" class="form-control heigth-50 reverse" placeholder="Nome">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control heigth-50 reverse" placeholder="Email">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control heigth-50 reverse" placeholder="Telefone">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control heigth-50 reverse" placeholder="CNPJ">
-                </div>
-                <div class="form-group">
-                  <p class="text-center">Quero receber um contato</p>
-                  <div class="pb_select-wrap">
-                    <select class="form-control heigth-50 reverse">
-                      <option value="" selected="">De manhã</option>
-                      <option value="">tarde</option>
-                      <option value="">noite</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill btn-shadow-blue" value="agendar">
-                </div>
-              </form> -->
-              
-              <!-- <form method="post" id="contactForm">
-                <h2 class="mb-4 mt-0 text-center">Cadastre-se agora.</h2>
-                <div class="form-group">
-                  <label for="nome">Nome</label>
-                  <input type="text" class="form-control heigth-50 reverse" name="nome" id="nome">
-                </div>
-                <div class="form-group">
-                  <label for="nome">Email</label>
-                  <input type="email" class="form-control heigth-50 reverse" name="email" id="email">
-                </div>
-                <div class="form-group">
-                  <label for="nome">Telefone</label>
-                  <input type="text" class="form-control heigth-50 reverse" name="telefone" id="telefone">
-                </div>
-                <div class="form-group">
-                  <label for="nome">CNPJ</label>
-                  <input type="text" class="form-control heigth-50 reverse" name="cnpj" id="cnpj">
-                </div>
-                <div class="form-group">
-                  <p class="text-center">Quero receber um contato</p>
-                  <div class="pb_select-wrap">
-                    <select class="form-control heigth-50 reverse" name="periodo" id="periodo">
-                      <option value="manha" selected="">De manhã</option>
-                      <option value="tarde">De tarde</option>
-                      <option value="noite">De noite</option>
-                    </select>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="submit" class="btn btn-primary btn-lg btn-block pb_btn-pill btn-shadow-blue" value="agendar">
-                  <span class="submitting"></span>
-                </div>
-              </form> -->
-              
-              <!-- <div id="form-message-warning" class="mt-4"></div>
-              <div id="form-message-success">
-                Sua mensagem foi enviada, Obrigado!
-              </div> -->
+              ?>
+              <!-- /form -->
               <h6 class="text-center text-description mt-5">
                 Jacometo garante proteção de<br>
                 carga para todo trecho.
@@ -144,7 +79,7 @@
           </div>
 
           <!-- start scroll -->
-          <div class="row" style="box-shadow: 0 1px #e9e9e9; padding-bottom: 30px;">
+          <div class="row" style="padding-bottom: 30px;">
             <div class="col-12">
               <div class="owl-carousel popular-slider">
 
@@ -183,7 +118,7 @@
             <div class="col-6 col-xl-3 mb-5" data-aos="fade-up" data-aos-delay="0">
               <div class="psiu-card">
                 <h4>
-                  colisão
+                  Colisão
                 </h4>
                 <img class="seguro-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/seguro-1.png">
               </div>
@@ -192,7 +127,7 @@
             <div class="col-6 col-xl-3 mb-5" data-aos="fade-up" data-aos-delay="50">
               <div class="psiu-card">
                 <h4>
-                  capotamenro/ tombamento
+                  Capotamenro/ Tombamento
                 </h4>
                 <img class="seguro-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/seguro-2.png">
               </div>
@@ -201,7 +136,7 @@
             <div class="col-6 col-xl-3 mb-5" data-aos="fade-up" data-aos-delay="100">
               <div class="psiu-card">
                 <h4>
-                  furto
+                  Furto ou Roubo
                 </h4>
                 <img class="seguro-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/seguro-3.png">
               </div>
@@ -210,7 +145,7 @@
             <div class="col-6 col-xl-3 mb-5" data-aos="fade-up" data-aos-delay="150">
               <div class="psiu-card">
                 <h4>
-                  incêndio
+                  Incêndio
                 </h4>
                 <img class="seguro-img" src="<?php echo get_stylesheet_directory_uri(); ?>/images/seguro-4.png">
               </div>
@@ -226,8 +161,8 @@
       <div class="section-vantages" id="section-vantages">
 
         <div class="wrapper">
-          <div class="accordion active">
-            <div class="accordion_tab active" data-aos="fade-up" data-aos-delay="100">
+          <div class="accordion">
+            <div class="accordion_tab" data-aos="fade-up" data-aos-delay="100">
               <div class="accordion_arrow">
                 <span class="icon-caret-right"></span>
               </div>
@@ -504,22 +439,20 @@
             <img class="sombra-img mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sombra.png">
           </div>
 
-          <div class="psiu-card">
+          <!-- <div class="psiu-card">
             <h3>
               Assistência
               à Carga
             </h3>
             <img class="cobertura-img mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/images/cobertura-3.png">
             <p>
-              comunicação, com transmissão de dados
-              de embarque via internet
               Cobertura adicional para limpeza, contenção
               e remoção de produtos que possam
               sujar as vias em caso de acidente rodoviário
               com a carga transportada
             </p>
             <img class="sombra-img mx-auto" src="<?php echo get_stylesheet_directory_uri(); ?>/images/sombra.png">
-          </div>
+          </div> -->
 
           <div class="psiu-card">
             <h3>
